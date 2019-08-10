@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+	<link rel="stylesheet" type="text/css" href="estilo.css" media="all">
+	<script type="text/javascript" src="scriptJuego.js"></script>
+</head>
+<body id="cursor-touch">
+
+	<div id="box"  style="padding-top: 15px;margin-top: 40px">
+		<div id="contenido">
+			<table>
+				<tr>
+					<td><h2>Let's play rock,</h2></td><td width="350" align="right"><h6 align="right">SCORE<input type="text"  style="width:30px;" id="cursor-touch" readonly></h6></td>
+				</tr>
+				<tr>
+					<td><h2>paper, scissors!</h2></td><td align="right"><font size="1" style="color: #FFFFFF;">TU:<input type="text" value="0" id="score" style="width:50px;" readonly></font><br>
+						<font size="1" style="color: #FFFFFF;">PC:<input type="text" value="0" id="scorepc" style="width:50px;" readonly></font></td>
+				</tr>
+			</table>
+				
+			
+			<p>Elige tu jugada</p> 
+
+			<div id="juego">
+				<button class="botonpiedra" id="cursor-touch" onclick="jugar(0)">Piedra</button>
+				<button class="botonpapel"  id="cursor-touch" onclick="jugar(1)" >Papel</button>
+				<button class="botontijeras" id="cursor-touch" onclick="jugar(2)">Tijera</button>	
+				<br><br>	
+				<h2>Elegiste: <label id="usuario"></label></br>La PC eligi&oacute;: <label id="pc"></label></h2><br><br>
+				<div id="resultado"><h2 style="color: #000000;text-shadow: none;"></h2></div>
+			</div>	
+			
+		</div>
+	</div>
+		
+</body>
+
+
+</html>

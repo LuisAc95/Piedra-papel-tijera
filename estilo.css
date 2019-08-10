@@ -1,0 +1,127 @@
+
+body{
+	
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+
+#box {
+	
+	background-color: #000000;
+    background-image: url("img/interfaz.png") ;
+    background-size: cover;
+  	background-position: center;
+    padding: 0;
+    max-width: 770px;
+    max-height: 540px;
+    margin: 1em auto;
+  
+	 
+}
+
+h2, h6{display: inline;}
+
+h2,h4{
+	color: #FFFFFF;
+}
+
+
+
+h6{
+	color: purple;
+}
+
+
+
+#contenido{
+	padding: 0;
+    width: 770px;
+    height: 500px;
+    margin: 1em auto;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+
+input{
+	border: none;
+	background-color: transparent;
+	font-size: 8pt;
+	color: #FFFFFF;
+	margin-left: 2pt;
+	outline:0px;
+}
+
+p{
+	color: #FFFFFF;
+	font-size: 10pt;
+	font-weight: bold;
+	margin-left: 240px;
+	margin-top: 60px;
+
+}
+
+#juego{
+	margin-left: 130px;
+}
+
+button{
+	display: inline;
+}
+
+#cursor-touch,#score,#scorepc{
+	cursor: url("https://www.figma.com/images/viewer/cursor-touch.png") 32 32, default;
+}
+
+#cursor-touch:active,#score:active,#scorepc:active {
+    cursor: url("https://www.figma.com/images/viewer/cursor-touch-down.png") 32 32, default;
+}
+
+.botonpapel{
+	
+	background-color:#6699FF;
+	border-radius:4px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 30px;
+	text-decoration:none;
+	border: hidden;
+
+}
+
+.botontijeras{
+
+	background-color:#339966;
+	border-radius:4px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 30px;
+	text-decoration:none;
+	border: hidden;
+
+}
+
+.botonpiedra{
+	
+	background-color:#FF6666;
+	border-radius:4px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 30px;
+	text-decoration:none;
+	border: hidden;
+
+}
+
+label{
+	font-size: 25x; 
+}
